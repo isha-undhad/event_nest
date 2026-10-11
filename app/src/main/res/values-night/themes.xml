@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. Even if the system resolves night mode, maintain light status/nav bar and brand styling. -->
+    <style name="Base.Theme.EventNest" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="29">false</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="29">false</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- Global Text & Input Hint Contrast -->
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="colorOnSurfaceVariant">@color/text_hint</item>
+        <item name="hintTextColor">@color/text_input_hint_selector</item>
+        <item name="textInputStyle">@style/Widget.EventNest.TextInputLayout.OutlinedBox</item>
+        <item name="editTextStyle">@style/Widget.EventNest.EditText</item>
+    </style>
+</resources>

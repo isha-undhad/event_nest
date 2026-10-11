@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1003975143273",
+    "project_id": "eventnest-f81f6",
+    "storage_bucket": "eventnest-f81f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003975143273:android:5aa79520dd19b62bc217f8",
+        "android_client_info": {
+          "package_name": "com.example.eventnest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh2z8xmxjGJEmUsAq9jZDdrHgh8h69jFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

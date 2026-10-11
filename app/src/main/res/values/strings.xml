@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">EventNest</string>
+    <string name="default_web_client_id">1003975143273-5eurb4fr7cpc3grbhnfb4e9jdfih0bub.apps.googleusercontent.com</string>
+    
+    <!-- Auth Titles & Subtitles -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to manage and discover your events</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join EventNest to start exploring and organizing events</string>
+    <string name="forgot_password_title">Reset Password</string>
+    <string name="forgot_password_subtitle">Enter your registered email and we\'ll send you a password reset link</string>
+    
+    <!-- Input Fields -->
+    <string name="full_name_label">Full Name</string>
+    <string name="email_label">Email Address</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    
+    <!-- Buttons & Actions -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="sign_in_with_google">Continue with Google</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="forgot_password_prompt">Forgot Password?</string>
+    <string name="no_account_prompt">Don\'t have an account?</string>
+    <string name="already_have_account_prompt">Already have an account?</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="back_to_login">Back to Login</string>
+    
+    <!-- Validations & Errors -->
+    <string name="error_empty_name">Please enter your name</string>
+    <string name="error_empty_email">Please enter your email</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_empty_password">Please enter your password</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_do_not_match">Passwords do not match</string>
+    <string name="error_google_client_id_missing">Please configure your Google Web Client ID in strings.xml or Firebase Console</string>
+    <string name="reset_email_sent_success">Password reset email sent! Check your inbox.</string>
+    <string name="registration_success">Account created successfully!</string>
+    <string name="login_success">Welcome back!</string>
+    
+    <!-- Main Screen & Discovery -->
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="user_email_label">Email: %1$s</string>
+    <string name="user_uid_label">User ID: %1$s</string>
+    <string name="user_role_label">Role: %1$s</string>
+    <string name="auth_provider_label">Provider: %1$s</string>
+    <string name="event_nest_dashboard_desc">Your Firebase Authentication is active and configured. You can now build event management features, ticket scanning, and more!</string>
+    
+    <string name="discover_events_title">Discover Events</string>
+    <string name="discover_events_subtitle">Find and book the best experiences near you</string>
+    <string name="search_events_hint">Search events, venues, topics...</string>
+    <string name="category_all">All</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="events_count_format">%1$d events</string>
+    <string name="no_events_found">No events found</string>
+    <string name="no_events_description">Try adjusting your search query or selecting another category</string>
+    <string name="price_free">Free</string>
+    <string name="seats_left_format">%1$d seats left</string>
+    <string name="sold_out">Sold Out</string>
+    <string name="view_details">View Details</string>
+    <string name="book_tickets">Book Tickets</string>
+    <string name="seed_sample_data">Load Demo Events</string>
+    <string name="no_events_in_category">No events in this category yet</string>
+</resources>
